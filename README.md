@@ -71,9 +71,6 @@ edu-insight/
       api.ts
       components/
       pages/
-  docs/
-    system_architecture.md
-    test_questions.md
 ```
 
 ## 快速启动
