@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #132238;
+  background: #f4f7fb;
+  font-family:
+    Inter,
+    "PingFang SC",
+    "Microsoft YaHei",
+    system-ui,
+    sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@layer components {
+  .panel {
+    @apply rounded-lg border border-slate-200/70 bg-white shadow-panel;
+  }
+
+  .panel-title {
+    @apply text-sm font-semibold text-slate-900;
+  }
+
+  .panel-subtitle {
+    @apply text-xs text-slate-500;
+  }
+
+  .soft-grid {
+    background-image: radial-gradient(circle at 1px 1px, rgba(95, 121, 255, 0.12) 1px, transparent 0);
+    background-size: 18px 18px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.7);
+  border-radius: 9999px;
+}

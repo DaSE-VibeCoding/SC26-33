@@ -1,0 +1,6 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pandas==2.2.3
+numpy==1.26.4
+pydantic==2.11.4
+openai==1.93.0
